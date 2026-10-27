@@ -35,3 +35,17 @@ ConstraintLayout và findViewById.
 ### Minh chứng Câu 2
 
 ![Profile Intent](screenshots/cau2_profile_intent.png)
+## Câu 3: ListView và ArrayAdapter
+
+- Hiển thị 5 môn học bằng ListView.
+- Sử dụng findViewById.
+- Sử dụng ArrayAdapter với simple_list_item_1.
+- Hiển thị Toast khi nhấn vào môn học.
+
+### Minh chứng danh sách
+
+![ListView Display](screenshots/cau3_listview_display.png)
+
+### Minh chứng Toast
+
+![Item Click Toast](screenshots/cau3_item_click_toast.png)
