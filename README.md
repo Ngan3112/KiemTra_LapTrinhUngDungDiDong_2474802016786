@@ -24,3 +24,14 @@ ConstraintLayout và findViewById.
 ### Minh chứng kiểm tra dữ liệu hợp lệ
 
 ![Validation Success](screenshots/cau1_validation_success.png)
+## Câu 2: Explicit Intent và Bundle Extra
+
+- Tạo màn hình ProfileActivity.
+- Chuyển màn hình bằng Explicit Intent.
+- Truyền Email bằng putExtra().
+- Nhận Email bằng getStringExtra().
+- Nhấn Log Out để trở về LoginActivity.
+
+### Minh chứng Câu 2
+
+![Profile Intent](screenshots/cau2_profile_intent.png)

@@ -3,6 +3,7 @@ package vn.edu.vlu.kiemtra_laptrinhungdungdidong_2474802016786
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Button
+import android.content.Intent
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -41,6 +42,15 @@ class LoginActivity : AppCompatActivity() {
 
                 else -> {
                     tvStatus.text = "Validation Successful!"
+
+                    val intent = Intent(
+                        this@LoginActivity,
+                        ProfileActivity::class.java
+                    )
+
+                    intent.putExtra("USER_EMAIL", email)
+
+                    startActivity(intent)
                 }
             }
         }
